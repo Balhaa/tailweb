@@ -155,11 +155,11 @@ export default function Example() {
             </h1> <br></br>
             <p className="mt-6 text-left leading-8 text-gray-700">
             <h1 className="text-left font-bold text-black-600"> Fitur :</h1> 
-             -> product : Menjelaskan tentang macam-macam Product yang di jual.
-             <br></br>-> About Toko : Menjelaskan Tentang toko. 
+             -> product : Deksripsi tentang macam-macam Product yang di jual.
+             <br></br>-> About Toko : Deksripsi Tentang toko. 
              <br></br>-> Contact number : No yang dapat dihubungi.
-             <br></br>-> Profil : menjelaskan Profil Penulis.
-             
+             <br></br>-> Profil : Deksripsi Profil Penulis.
+
             </p>
             <p className="mt-6 text-lg leading-8 text-green-600">
               <img

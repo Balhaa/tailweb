@@ -50,10 +50,10 @@ export default function Example() {
             </div>
           </div>
           <img
-  src="https://lh3.googleusercontent.com/p/AF1QipO1aKIUjGkJUSN_KDaFP51tViMO0V32fgkrSKIO=s680-w680-h510"
+  src="https://img.freepik.com/premium-photo/interior-shot-racks-with-shirts-undershirts-jeans_88135-5869.jpg?w=996"
   alt="Product screenshot"
   width="500"
-  height="600"
+  height="400"
   className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 />
 
