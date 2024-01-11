@@ -12,7 +12,7 @@
   }
   ```
 */
-
+/**membuat import navbar dan  pannggilan navbar pada setiap halaman */
 import Navbar from "./Navbar";
 const products = [
   {
@@ -56,10 +56,10 @@ const products = [
   {
     id: 5,
     name: "Sajadah",
-    href: "https://img.freepik.com/free-photo/carpets-market-morocco_23-2148129859.jpg?w=996&t=st=1698314994~exp=1698315594~hmac=bb922bf438de9d236a5bed5856461404dbc1277d3f693be3a31c25df8cdbe121",
+    href: "https://shorturl.asia/K8VSl",
     imageSrc:
-      "https://img.freepik.com/free-photo/carpets-market-morocco_23-2148129859.jpg?w=996&t=st=1698314994~exp=1698315594~hmac=bb922bf438de9d236a5bed5856461404dbc1277d3f693be3a31c25df8cdbe121",
-    price: "Rp. 90.000,00",
+      "https://shorturl.asia/K8VSl",
+    price: "Rp. 180.000,00",
     color: "colorful",
   },
   {
@@ -74,27 +74,27 @@ const products = [
   {
     id: 7,
     name: "Kemeja",
-    href: "https://media.istockphoto.com/id/1041286784/id/foto/deretan-kemeja-pria-dengan-warna-biru-di-gantungan.jpg?s=170667a&w=0&k=20&c=f39cOvEi01qznfgdxk1TP8-HfUIDopUzEF-8ZIONQYk=",
+    href: "https://shorturl.asia/aH7IW",
     imageSrc:
-      "https://media.istockphoto.com/id/1041286784/id/foto/deretan-kemeja-pria-dengan-warna-biru-di-gantungan.jpg?s=170667a&w=0&k=20&c=f39cOvEi01qznfgdxk1TP8-HfUIDopUzEF-8ZIONQYk=",
+      "https://shorturl.asia/aH7IW",
     price: "Rp. 150.000,00",
     color: "Bercorak "
   },
   {
     id: 8,
     name: "Perlengkapan Bayi",
-    href: "https://img.freepik.com/free-photo/baby-elementson-light-blue-background_1220-4300.jpg?size=626&ext=jpg&uid=R80913524&ga=GA1.1.1154042006.1698284187&semt=ais",
+    href: "https://shorturl.asia/HG4ym",
     imageSrc:
-      "https://img.freepik.com/free-photo/baby-elementson-light-blue-background_1220-4300.jpg?size=626&ext=jpg&uid=R80913524&ga=GA1.1.1154042006.1698284187&semt=ais",
-    price: "Rp. 120.000,00",
+      "https://shorturl.asia/HG4ym",
+    price: "Harga menyesuaikan",
   },
 
-  // More products...
+  // More products dan warna bg dibawahnya ini
 ];
 
 export default function Example() {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gradient-to-b from-gray-300 via-gray-400 to-gray-400 overflow-hidden py-24 sm:py-15 "> 
       <Navbar />
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">

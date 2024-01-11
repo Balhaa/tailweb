@@ -15,3 +15,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg-image-url {
+  background-image:url(https://img.freepik.com/free-photo/tall-lighthouse-north-sea-cloudy-sky_181624-49637.jpg?w=996&t=st=1704690992~exp=1704691592~hmac=0868f07c67fb29a52455fd5fbe8a3e3570b2cec8d7709cf7802777ed6f9de89a) ;
+}
+.image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.gallery-image {
+  max-width: 100%;
+  max-height: 550px;
+  transition: opacity 0.5s ease-in-out;
+}
+.arrow-button {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: #ffffff00; /* Sesuaikan warna latar belakang dengan kebutuhan Anda */
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.arrow-button:hover {
+  background-color: #ffffff00; /* Sesuaikan warna latar belakang hover dengan kebutuhan Anda */
+}
+
+.arrow-button:first-child {
+  left: 10px;
+}
+
+.arrow-button:last-child {
+  right: 10px;
+}
