@@ -14,7 +14,7 @@ export default function Example() {
 
   return (
     <div className="bg-blue-500">
-      <header className="absolute inset-x-0 top-0 z-50" style={{ backgroundColor: 'gray' }}>
+      <header className="absolute inset-x-0 top-0 z-50" style={{ backgroundColor: 'black' }}>
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -41,7 +41,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:gap-x-12">
             {/* Assuming 'navigation' is an array of objects with 'name' and 'href' properties */}
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-green-900">
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
                 {item.name}
               </a>
             ))}

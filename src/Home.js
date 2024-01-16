@@ -2,6 +2,8 @@ import Navbar from './Navbar'
 import React from 'react';
 import ImageGallery from './ImageGallery';
 
+
+
 export default function Example() {
   return (
     <div className="bg-gradient-to-b from-gray-300 via-gray-400 to-gray-400 overflow-hidden py-24 sm:py-20">
@@ -12,7 +14,7 @@ export default function Example() {
       {/* Navbar */}
       <Navbar />
 
-      <div className="mt-5 flex items-center justify-center">
+      <div className="mt-4 flex items-center justify-center">
         {/* ImageGallery */}
         <div className="mt-[-50px]">
           <ImageGallery />
@@ -22,7 +24,7 @@ export default function Example() {
       <p className="mt-6 text-lg leading-8 text-green-600">
         {/* Konten teks, sesuaikan sesuai kebutuhan */}
       </p>
-
+      
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://www.instagram.com/reel/CnLXsxdBnBT/?utm_source=ig_web_copy_link"

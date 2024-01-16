@@ -2,6 +2,7 @@
  install react-router-dom, kemudian membuat routing konstanta pada app.js*/
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
 import { ImageList } from './ImageGallery';
 
 const Home = lazy(() => import('./Home'));

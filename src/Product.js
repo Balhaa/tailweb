@@ -14,7 +14,7 @@
 */
 /**membuat import navbar dan  pannggilan navbar pada setiap halaman */
 import Navbar from "./Navbar";
-const products = [
+const internalProducts = [
   {
     id: 1,
     name: "Kaos Oblong",
@@ -56,9 +56,9 @@ const products = [
   {
     id: 5,
     name: "Sajadah",
-    href: "https://shorturl.asia/K8VSl",
+    href: "https://images.pexels.com/photos/7820362/pexels-photo-7820362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     imageSrc:
-      "https://shorturl.asia/K8VSl",
+      "https://images.pexels.com/photos/7820362/pexels-photo-7820362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     price: "Rp. 180.000,00",
     color: "colorful",
   },
@@ -74,33 +74,67 @@ const products = [
   {
     id: 7,
     name: "Kemeja",
-    href: "https://shorturl.asia/aH7IW",
+    href: "https://media.istockphoto.com/id/1041286784/id/foto/deretan-kemeja-pria-dengan-warna-biru-di-gantungan.jpg?s=170667a&w=0&k=20&c=f39cOvEi01qznfgdxk1TP8-HfUIDopUzEF-8ZIONQYk=",
     imageSrc:
-      "https://shorturl.asia/aH7IW",
+      "https://media.istockphoto.com/id/1041286784/id/foto/deretan-kemeja-pria-dengan-warna-biru-di-gantungan.jpg?s=170667a&w=0&k=20&c=f39cOvEi01qznfgdxk1TP8-HfUIDopUzEF-8ZIONQYk=",
     price: "Rp. 150.000,00",
     color: "Bercorak "
   },
   {
     id: 8,
     name: "Perlengkapan Bayi",
-    href: "https://shorturl.asia/HG4ym",
+    href: "https://img.freepik.com/free-photo/baby-elementson-light-blue-background_1220-4300.jpg?size=626&ext=jpg&uid=R80913524&ga=GA1.1.1154042006.1698284187&semt=ais",
     imageSrc:
-      "https://shorturl.asia/HG4ym",
+      "https://img.freepik.com/free-photo/baby-elementson-light-blue-background_1220-4300.jpg?size=626&ext=jpg&uid=R80913524&ga=GA1.1.1154042006.1698284187&semt=ais",
     price: "Harga menyesuaikan",
+  },
+  {
+    id: 9,
+    name: "Topi",
+    href: "https://img.freepik.com/premium-psd/canvas-bucket-hat-mockup-template_185216-380.jpg?w=740",
+    imageSrc:
+      "https://img.freepik.com/premium-psd/canvas-bucket-hat-mockup-template_185216-380.jpg?w=740",
+    price: "Rp.80.000,00",
+  },
+  {
+    id: 10,
+    name: "Topi",
+    href: "https://img.freepik.com/free-psd/cap-mock-up-lateral-view_1310-154.jpg?w=996&t=st=1705395242~exp=1705395842~hmac=a4e06d0295dfa71fa2f014426cd4be0c8519dc0eb5e14a00fe73b8305af74e40",
+    imageSrc:
+      "https://img.freepik.com/free-psd/cap-mock-up-lateral-view_1310-154.jpg?w=996&t=st=1705395242~exp=1705395842~hmac=a4e06d0295dfa71fa2f014426cd4be0c8519dc0eb5e14a00fe73b8305af74e40",
+    price: "Rp.100.000,00",
+  },
+  {
+    id: 11,
+    name: "Celana kantor",
+    href: "https://img.freepik.com/free-photo/second-hand-market-with-vintage-pants_23-2149338408.jpg?w=360&t=st=1705395352~exp=1705395952~hmac=14fd7154b9eaee6d4e6071eeee259ddf458d42d74fb2ac08c4ab4dae0ea20aa9",
+    imageSrc:
+      "https://img.freepik.com/free-photo/second-hand-market-with-vintage-pants_23-2149338408.jpg?w=360&t=st=1705395352~exp=1705395952~hmac=14fd7154b9eaee6d4e6071eeee259ddf458d42d74fb2ac08c4ab4dae0ea20aa9",
+    price: "-",
+  },
+  {
+    id: 12,
+    name: "Hoodie",
+    href: "https://img.freepik.com/free-photo/white-hoodie-rear-view-minimal-fashion-apparel_1409-5204.jpg?t=st=1705395767~exp=1705399367~hmac=c472e17af8eb3c307caddd8bc075a85ed7286a5393b426778c4a8c44b9c631dd&w=996",
+    imageSrc:
+      "https://img.freepik.com/free-photo/white-hoodie-rear-view-minimal-fashion-apparel_1409-5204.jpg?t=st=1705395767~exp=1705399367~hmac=c472e17af8eb3c307caddd8bc075a85ed7286a5393b426778c4a8c44b9c631dd&w=996",
+    price: "Rp.200.000,00",
   },
 
   // More products dan warna bg dibawahnya ini
 ];
 
 export default function Example() {
+  const products = internalProducts;
+
   return (
     <div className="bg-gradient-to-b from-gray-300 via-gray-400 to-gray-400 overflow-hidden py-24 sm:py-15 "> 
       <Navbar />
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Silahkan Memilih Produk :
+        <h2 className="text-2xl font-bold tracking-tight text-center text-gray-900 bg-gray-400 py-2 px-4 mb-8 rounded-md">
+          Daftar products
         </h2>
-
+        
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <div key={product.id} className="group relative">
