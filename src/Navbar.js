@@ -96,7 +96,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://cdn.discordapp.com/attachments/935856252494417982/1171668886949736518/output-onlinegiftools.gif?ex=655d84af&is=654b0faf&hm=44c5a090f94a9fef7b4789b1a929a6feb2d6b7ea96024845621ee118c7eedaf5&"
+                  src="https://cdn.discordapp.com/attachments/1134473536459772005/1167305303331717200/11zon_cropped-transformed.png?ex=654da4c7&is=653b2fc7&hm=2242eb01ae0bb56bc005e53a929c2568536eeb3c0bb00321451cb6253985755e&"
                   alt=""
                 />
               </a>
