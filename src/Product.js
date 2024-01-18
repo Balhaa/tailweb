@@ -120,12 +120,15 @@ const internalProducts = [
       "https://img.freepik.com/free-photo/white-hoodie-rear-view-minimal-fashion-apparel_1409-5204.jpg?t=st=1705395767~exp=1705399367~hmac=c472e17af8eb3c307caddd8bc075a85ed7286a5393b426778c4a8c44b9c631dd&w=996",
     price: "Rp.200.000,00",
   },
+  // Data produk (informasi produk seperti nama, harga, gambar, dll.) didefinisikan dalam array internalProducts.
+  //Oleh karena itu, kita dapat menganggap array ini sebagai representasi data JSON yang digunakan dalam komponen.
 
   // More products dan warna bg dibawahnya ini
 ];
 
 export default function Example() {
   const products = internalProducts;
+  // Komponen dan Props: Example komponen dengan menggunakan data dari array internalProducts sebagai props.
 
   return (
     <div className="bg-gradient-to-b from-gray-300 via-gray-400 to-gray-400 overflow-hidden py-24 sm:py-15 "> 
