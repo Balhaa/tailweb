@@ -121,7 +121,7 @@ const internalProducts = [
     price: "Rp.200.000,00",
   },
   // Data produk (informasi produk seperti nama, harga, gambar, dll.) didefinisikan dalam array internalProducts.
-  //Oleh karena itu, kita dapat menganggap array ini sebagai representasi data JSON yang digunakan dalam komponen.
+  //Oleh karena itu, array ini sebagai representasi data JSON yang digunakan dalam komponen.
 
   // More products dan warna bg dibawahnya ini
 ];

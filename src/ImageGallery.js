@@ -9,11 +9,12 @@ const Imagegallery = () => {
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
+  }; // Fungsi handlePrev ini digunakan untuk mengatur aksi yang terjadi saat tombol "sebelumnya" pada galeri ditekan. 
+  // Fungsinya mengubah indeks gambar saat ini dengan menggunakan state currentIndex. 
 
   const handleNext = () => {
     setCurrentIndex((nextIndex) => (nextIndex + 1) % images.length);
-  };
+  }; // Fungsi handleNext ini digunakan untuk mengatur aksi yang terjadi saat tombol "selanjutnya" pada galeri ditekan.
 
   useEffect(() => {
     // Buat interval untuk mengganti warna border setiap 2 detik
@@ -56,5 +57,3 @@ const Imagegallery = () => {
 };
 
 export default Imagegallery;
-
-  

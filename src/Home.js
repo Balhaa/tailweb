@@ -19,7 +19,7 @@ export default function Example() {
         <div className="mt-[-50px]">
           <ImageGallery />
         </div>
-      </div>
+      </div> 
 
       <p className="mt-6 text-lg leading-8 text-green-600">
         {/* Konten teks, sesuaikan sesuai kebutuhan */}
